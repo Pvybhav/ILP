@@ -1,0 +1,15 @@
+# You must run a git config command to enable .gitignore to work across all local repositories. 
+# You can edit the ~/.gitignore path if required.
+#
+# git config --global core.excludesfile ~/.gitignore
+#
+# Once enabled, edit the ~/.gitignore file and add patterns which will affect the next git add command.
+#
+# If all files excluded and you will include only specific sub-directories
+# the parent path must matched before.
+#
+.classpath
+.project
+.settings/
+target/
+.gradle/
